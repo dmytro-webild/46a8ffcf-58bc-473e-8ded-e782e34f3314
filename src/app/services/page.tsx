@@ -78,7 +78,7 @@ export default function LandingPage() {
             text: "Learn More",
             href: "/services#ocean-freight",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg?_wi=3",
           imageAlt: "container ship vast ocean",
         },
         {
@@ -90,7 +90,7 @@ export default function LandingPage() {
             text: "Learn More",
             href: "/services#road-transport",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg?_wi=3",
           imageAlt: "container ship vast ocean",
         },
         {
@@ -102,7 +102,7 @@ export default function LandingPage() {
             text: "Learn More",
             href: "/services#warehousing",
           },
-          imageSrc: "http://img.b2bpic.net/free-photo/runway-lights-with-landing-airbus-vienna_181624-58638.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/runway-lights-with-landing-airbus-vienna_181624-58638.jpg?_wi=2",
           imageAlt: "container ship vast ocean",
         },
       ]}
