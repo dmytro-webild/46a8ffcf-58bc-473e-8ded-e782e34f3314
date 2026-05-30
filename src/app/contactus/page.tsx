@@ -72,7 +72,7 @@ export default function LandingPage() {
       ]}
       sideTitle="Frequently Asked Questions"
       sideDescription="Find quick answers to common inquiries about our freight forwarding services."
-      faqsAnimation="entrance-slide"
+      faqsAnimation="slide-up"
       textPosition="left"
       showCard={true}
     />
