@@ -27,25 +27,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "About Us",
-          id: "/aboutus",
-        },
+          name: "About Us",          id: "/aboutus"},
         {
-          name: "Clients",
-          id: "/clients",
-        },
+          name: "Clients",          id: "/clients"},
         {
-          name: "Contact Us",
-          id: "/contactus",
-        },
+          name: "Contact Us",          id: "/contactus"},
       ]}
       brandName="AMS Shipping"
     />
@@ -53,21 +43,15 @@ export default function LandingPage() {
 
   <div id="contact-prompt" data-section="contact-prompt">
       <ContactText
-      useInvertedBackground={false}
-      background={{
-        variant: "radial-gradient",
-      }}
-      text="Ready to streamline your shipping? Get in touch with AMS Shipping today for a personalized quote or consultation."
       buttons={[
         {
-          text: "Call Us",
-          href: "tel:+1234567890",
-        },
+          text: "Call Us",          href: "tel:+1234567890"},
         {
-          text: "Email Us",
-          href: "mailto:info@amsshipping.com",
-        },
+          text: "Email Us",          href: "mailto:info@amsshipping.com"},
       ]}
+      background={{"variant": "radial-gradient"}}
+      useInvertedBackground={false}
+      text="Ready to streamline your shipping? Get in touch with AMS Shipping today for a personalized quote or consultation."
     />
   </div>
 
@@ -76,30 +60,15 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq1",
-          title: "What types of freight do you handle?",
-          content: "AMS Shipping handles a wide range of freight, including general cargo, oversized cargo, hazardous materials (with proper documentation), and temperature-controlled goods. Contact us with your specific needs.",
-        },
+          id: "faq1",          title: "What types of freight do you handle?",          content: "AMS Shipping handles a wide range of freight, including general cargo, oversized cargo, hazardous materials (with proper documentation), and temperature-controlled goods. Contact us with your specific needs."},
         {
-          id: "faq2",
-          title: "Do you offer customs brokerage services? ",
-          content: "Yes, we provide comprehensive customs brokerage services to ensure smooth and compliant clearance for your international shipments. Our experts navigate complex regulations on your behalf.",
-        },
+          id: "faq2",          title: "Do you offer customs brokerage services? ",          content: "Yes, we provide comprehensive customs brokerage services to ensure smooth and compliant clearance for your international shipments. Our experts navigate complex regulations on your behalf."},
         {
-          id: "faq3",
-          title: "How can I get a shipping quote?",
-          content: "You can request a shipping quote by filling out the contact form on our website, calling us directly, or sending an email. Please provide details about your cargo, origin, and destination for an accurate quote.",
-        },
+          id: "faq3",          title: "How can I get a shipping quote?",          content: "You can request a shipping quote by filling out the contact form on our website, calling us directly, or sending an email. Please provide details about your cargo, origin, and destination for an accurate quote."},
         {
-          id: "faq4",
-          title: "What is your service coverage area?",
-          content: "We offer extensive global coverage, with a network that spans over 200 countries. Whether your shipment is domestic or international, we have a solution for you.",
-        },
+          id: "faq4",          title: "What is your service coverage area?",          content: "We offer extensive global coverage, with a network that spans over 200 countries. Whether your shipment is domestic or international, we have a solution for you."},
         {
-          id: "faq5",
-          title: "How can I track my shipment?",
-          content: "Once your shipment is confirmed, you will receive a tracking number. You can use this number on our website's tracking portal to monitor your cargo's real-time status and location.",
-        },
+          id: "faq5",          title: "How can I track my shipment?",          content: "Once your shipment is confirmed, you will receive a tracking number. You can use this number on our website's tracking portal to monitor your cargo's real-time status and location."},
       ]}
       sideTitle="Frequently Asked Questions"
       sideDescription="Find quick answers to common inquiries about our freight forwarding services."
@@ -116,19 +85,13 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Twitter,
-          href: "https://twitter.com/amsshipping",
-          ariaLabel: "Twitter",
-        },
+          href: "https://twitter.com/amsshipping",          ariaLabel: "Twitter"},
         {
           icon: Linkedin,
-          href: "https://linkedin.com/company/amsshipping",
-          ariaLabel: "LinkedIn",
-        },
+          href: "https://linkedin.com/company/amsshipping",          ariaLabel: "LinkedIn"},
         {
           icon: Facebook,
-          href: "https://facebook.com/amsshipping",
-          ariaLabel: "Facebook",
-        },
+          href: "https://facebook.com/amsshipping",          ariaLabel: "Facebook"},
       ]}
     />
   </div>
