@@ -72,7 +72,7 @@ export default function LandingPage() {
           href: "/aboutus",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg?_wi=1"
       imageAlt="Large cargo ship at port with containers"
       mediaAnimation="entrance-slide"
       fixedMediaHeight={true}
@@ -149,7 +149,7 @@ export default function LandingPage() {
           icon: Settings,
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg?_wi=1"
       imageAlt="Modern logistics office interior"
       mediaAnimation="entrance-slide"
     />
@@ -166,7 +166,7 @@ export default function LandingPage() {
           description: "Fast and reliable air cargo solutions for time-sensitive shipments.",
           bentoComponent: "reveal-icon",
           icon: Globe,
-          imageSrc: "http://img.b2bpic.net/free-photo/runway-lights-with-landing-airbus-vienna_181624-58638.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/runway-lights-with-landing-airbus-vienna_181624-58638.jpg?_wi=1",
           imageAlt: "cargo plane takeoff sunset",
         },
         {
@@ -174,7 +174,7 @@ export default function LandingPage() {
           description: "Cost-effective sea transport for large volume and heavy cargo.",
           bentoComponent: "reveal-icon",
           icon: Box,
-          imageSrc: "http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg?_wi=2",
           imageAlt: "cargo plane takeoff sunset",
         },
         {
@@ -182,7 +182,7 @@ export default function LandingPage() {
           description: "Seamless customs processing to ensure smooth international trade.",
           bentoComponent: "reveal-icon",
           icon: FileText,
-          imageSrc: "http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg?_wi=2",
           imageAlt: "cargo plane takeoff sunset",
         },
       ]}
