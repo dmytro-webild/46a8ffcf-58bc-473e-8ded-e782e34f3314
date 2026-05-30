@@ -27,25 +27,15 @@ export default function LandingPage() {
       <NavbarLayoutFloatingOverlay
       navItems={[
         {
-          name: "Home",
-          id: "/",
-        },
+          name: "Home",          id: "/"},
         {
-          name: "Services",
-          id: "/services",
-        },
+          name: "Services",          id: "/services"},
         {
-          name: "About Us",
-          id: "/aboutus",
-        },
+          name: "About Us",          id: "/aboutus"},
         {
-          name: "Clients",
-          id: "/clients",
-        },
+          name: "Clients",          id: "/clients"},
         {
-          name: "Contact Us",
-          id: "/contactus",
-        },
+          name: "Contact Us",          id: "/contactus"},
       ]}
       brandName="AMS Shipping"
     />
@@ -58,52 +48,24 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Air Freight",
-          description: "Expedited air cargo services for urgent and valuable shipments worldwide.",
-          bentoComponent: "reveal-icon",
-          icon: Globe,
+          title: "Air Freight",          description: "Expedited air cargo services for urgent and valuable shipments worldwide.",          bentoComponent: "reveal-icon",          icon: Globe,
           button: {
-            text: "Learn More",
-            href: "/services#air-freight",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/aerial-view-container-cargo-ship-sea_335224-719.jpg",
-          imageAlt: "container ship vast ocean",
+            text: "Learn More",            href: "/services#air-freight"},
         },
         {
-          title: "Ocean Freight",
-          description: "Flexible and economical ocean shipping options for full container loads (FCL) and less than container loads (LCL).",
-          bentoComponent: "reveal-icon",
-          icon: Box,
+          title: "Ocean Freight",          description: "Flexible and economical ocean shipping options for full container loads (FCL) and less than container loads (LCL).",          bentoComponent: "reveal-icon",          icon: Box,
           button: {
-            text: "Learn More",
-            href: "/services#ocean-freight",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/cargo-ship-sailing-ocean_23-2152021788.jpg?_wi=3",
-          imageAlt: "container ship vast ocean",
+            text: "Learn More",            href: "/services#ocean-freight"},
         },
         {
-          title: "Road Transport",
-          description: "Efficient domestic and cross-border road transport for seamless last-mile delivery.",
-          bentoComponent: "reveal-icon",
-          icon: Truck,
+          title: "Road Transport",          description: "Efficient domestic and cross-border road transport for seamless last-mile delivery.",          bentoComponent: "reveal-icon",          icon: Truck,
           button: {
-            text: "Learn More",
-            href: "/services#road-transport",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/airport-terminal_1417-1451.jpg?_wi=3",
-          imageAlt: "container ship vast ocean",
+            text: "Learn More",            href: "/services#road-transport"},
         },
         {
-          title: "Warehousing & Distribution",
-          description: "Secure storage and strategic distribution solutions to optimize your inventory flow.",
-          bentoComponent: "reveal-icon",
-          icon: Building,
+          title: "Warehousing & Distribution",          description: "Secure storage and strategic distribution solutions to optimize your inventory flow.",          bentoComponent: "reveal-icon",          icon: Building,
           button: {
-            text: "Learn More",
-            href: "/services#warehousing",
-          },
-          imageSrc: "http://img.b2bpic.net/free-photo/runway-lights-with-landing-airbus-vienna_181624-58638.jpg?_wi=2",
-          imageAlt: "container ship vast ocean",
+            text: "Learn More",            href: "/services#warehousing"},
         },
       ]}
       title="Comprehensive Logistics Solutions"
@@ -118,31 +80,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "200+",
-          title: "Countries Served",
-          items: [
-            "Extensive global network",
-            "Local expertise everywhere",
-          ],
+          id: "m1",          value: "200+",          title: "Countries Served",          items: [
+            "Extensive global network",            "Local expertise everywhere"],
         },
         {
-          id: "m2",
-          value: "1M+",
-          title: "Shipments Delivered",
-          items: [
-            "Proven track record of success",
-            "Reliable and on-time",
-          ],
+          id: "m2",          value: "1M+",          title: "Shipments Delivered",          items: [
+            "Proven track record of success",            "Reliable and on-time"],
         },
         {
-          id: "m3",
-          value: "15+",
-          title: "Years in Service",
-          items: [
-            "Deep industry experience",
-            "Continuously evolving solutions",
-          ],
+          id: "m3",          value: "15+",          title: "Years in Service",          items: [
+            "Deep industry experience",            "Continuously evolving solutions"],
         },
       ]}
       title="Our Impact in Numbers"
@@ -157,19 +104,13 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Twitter,
-          href: "https://twitter.com/amsshipping",
-          ariaLabel: "Twitter",
-        },
+          href: "https://twitter.com/amsshipping",          ariaLabel: "Twitter"},
         {
           icon: Linkedin,
-          href: "https://linkedin.com/company/amsshipping",
-          ariaLabel: "LinkedIn",
-        },
+          href: "https://linkedin.com/company/amsshipping",          ariaLabel: "LinkedIn"},
         {
           icon: Facebook,
-          href: "https://facebook.com/amsshipping",
-          ariaLabel: "Facebook",
-        },
+          href: "https://facebook.com/amsshipping",          ariaLabel: "Facebook"},
       ]}
     />
   </div>
